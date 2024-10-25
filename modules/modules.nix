@@ -31,6 +31,7 @@ let
     ./misc/gtk.nix
     ./misc/lib.nix
     ./misc/news.nix
+    ./misc/nixgl.nix
     ./misc/numlock.nix
     ./misc/pam.nix
     ./misc/qt.nix
@@ -77,6 +78,7 @@ let
     ./programs/carapace.nix
     ./programs/cava.nix
     ./programs/chromium.nix
+    ./programs/cmus.nix
     ./programs/command-not-found/command-not-found.nix
     ./programs/comodoro.nix
     ./programs/darcs.nix
@@ -92,6 +94,7 @@ let
     ./programs/feh.nix
     ./programs/firefox.nix
     ./programs/fish.nix
+    ./programs/floorp.nix
     ./programs/foot.nix
     ./programs/freetube.nix
     ./programs/fuzzel.nix
@@ -170,6 +173,7 @@ let
     ./programs/neovide.nix
     ./programs/neovim.nix
     ./programs/newsboat.nix
+    ./programs/nh.nix
     ./programs/nheko.nix
     ./programs/nix-index.nix
     ./programs/nnn.nix
@@ -261,6 +265,7 @@ let
     ./programs/yt-dlp.nix
     ./programs/z-lua.nix
     ./programs/zathura.nix
+    ./programs/zed-editor.nix
     ./programs/zellij.nix
     ./programs/zk.nix
     ./programs/zoxide.nix

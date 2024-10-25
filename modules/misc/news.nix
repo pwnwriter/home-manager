@@ -1770,6 +1770,49 @@ in {
           ideas from mutt.
         '';
       }
+
+      {
+        time = "2024-10-17T13:07:55+00:00";
+        message = ''
+          A new module is available: 'programs.zed-editor'.
+
+          Zed is a fast text editor for macOS and Linux.
+          See https://zed.dev for more.
+        '';
+      }
+
+      {
+        time = "2024-10-18T14:01:07+00:00";
+        message = ''
+          A new module is available: 'programs.cmus'.
+
+          cmus is a small, fast and powerful console music player.
+        '';
+      }
+
+      {
+        time = "2024-10-20T07:53:54+00:00";
+        condition = hostPlatform.isLinux;
+        message = ''
+          A new module is available: 'programs.nh'.
+
+          nh is yet another Nix CLI helper. Adding functionality on top of the
+          existing solutions, like nixos-rebuild, home-manager cli or nix
+          itself.
+        '';
+      }
+
+      {
+        time = "2024-10-25T08:18:30+00:00";
+        condition = hostPlatform.isLinux;
+        message = ''
+          A new module is available: 'nixGL'.
+
+          NixGL solve the "OpenGL" problem with nix. The 'nixGL' module provides
+          integration of NixGL into Home Manager. See the "GPU on non-NixOS
+          systems" section in the Home Manager mantual for more.
+        '';
+      }
     ];
   };
 }

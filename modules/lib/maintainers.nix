@@ -349,6 +349,11 @@
     githubId = 12465195;
     name = "Bruno BELANYI";
   };
+  libewa = {
+    email = "libewa-git@icloud.com";
+    github = "libewa";
+    githubId = 67926131;
+  };
   malvo = {
     email = "malte@malvo.org";
     github = "malte-v";
@@ -426,12 +431,6 @@
     email = "nurelin@users.noreply.github.com";
     github = "nurelin";
     githubId = 5276274;
-  };
-  omernaveedxyz = {
-    name = "Omer Naveed";
-    email = "omer@omernaveed.dev";
-    github = "omernaveedxyz";
-    githubId = 112912585;
   };
   otavio = {
     email = "otavio.salvador@ossystems.com.br";
@@ -598,6 +597,12 @@
     email = "zorrobert@mailbox.org";
     github = "zorrobert";
     githubId = 118135271;
+  };
+  joygnu = {
+    name = "joygnu";
+    email = "contact@joygnu.org";
+    github = "joygnu";
+    githubId = 152063003;
   };
   callumio = {
     name = "Callum Leslie";
