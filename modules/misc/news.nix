@@ -1810,7 +1810,21 @@ in {
 
           NixGL solve the "OpenGL" problem with nix. The 'nixGL' module provides
           integration of NixGL into Home Manager. See the "GPU on non-NixOS
-          systems" section in the Home Manager mantual for more.
+          systems" section in the Home Manager manual for more.
+        '';
+      }
+
+      {
+        time = "2024-11-01T19:44:59+00:00";
+        condition = hostPlatform.isLinux;
+        message = ''
+          A new module is available: 'services.podman'.
+
+          Podman is a daemonless container engine that lets you manage
+          containers, pods, and images.
+
+          This Home Manager module allows you to define containers that will run
+          as systemd services.
         '';
       }
     ];

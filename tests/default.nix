@@ -81,6 +81,7 @@ in import nmtSrc {
     ./modules/programs/gh-dash
     ./modules/programs/git
     ./modules/programs/git-cliff
+    ./modules/programs/git-credential-oauth
     ./modules/programs/gpg
     ./modules/programs/gradle
     ./modules/programs/granted
@@ -268,6 +269,7 @@ in import nmtSrc {
     ./modules/services/pbgopy
     ./modules/services/picom
     ./modules/services/playerctld
+    ./modules/services/podman-linux
     ./modules/services/polybar
     ./modules/services/recoll
     ./modules/services/redshift-gammastep
