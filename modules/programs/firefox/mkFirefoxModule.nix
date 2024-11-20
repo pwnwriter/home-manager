@@ -1,5 +1,6 @@
 { modulePath, name, description ? null, wrappedPackageName ? null
-, unwrappedPackageName ? null, platforms, visible ? false }:
+, unwrappedPackageName ? null, platforms, visible ? false
+, enableBookmarks ? true }:
 
 { config, lib, pkgs, ... }:
 
@@ -435,6 +436,7 @@ in {
           };
 
           bookmarks = mkOption {
+            internal = !enableBookmarks;
             type = let
               bookmarkSubmodule = types.submodule ({ config, name, ... }: {
                 options = {
@@ -553,6 +555,7 @@ in {
                 inherit (args) config;
                 inherit lib pkgs;
                 appName = cfg.name;
+                package = cfg.finalPackage;
                 modulePath = modulePath ++ [ "profiles" name "search" ];
                 profilePath = config.path;
               });
